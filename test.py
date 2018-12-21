@@ -41,8 +41,8 @@ def example_0():
 
         loss = lstm_net.y_list_is(y_list, ToyLossLayer)
         print("loss:", "%.3e" % loss)
-        lstm_param.apply_diff(lr=0.1)
-        lstm_net.x_list_clear()
+        # lstm_param.apply_diff(lr=0.1)
+        # lstm_net.x_list_clear()
 
 
 if __name__ == "__main__":
